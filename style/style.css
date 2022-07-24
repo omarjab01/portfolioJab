@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.container-generale {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.navbar-nav li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero {
+  height: 70vh;
+  margin: auto;
+}
+
+.left-hero h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.left-hero .paragrafo {
+  font-size: 2.25rem;
+}
+
+.right-hero {
+  padding: 3rem;
+}
+
+.right-hero img {
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  width: 100%;
+}
+
+.aboutme {
+  background-color: #282828;
+  display: none;
+}
+
+#Heading img {
+  width: 50px;
+  height: 50px;
+}
+
+.descrizione p {
+  font-size: 1.5rem;
+}
+
+mark {
+  background-color: #59e7fa;
+}
+
+.bottoni {
+  float: right;
+}
+
+.bottoni img {
+  max-width: 1.5rem;
+  margin-right: .5rem;
+}
+
+.bottoni a {
+  text-decoration: none;
+  margin-right: 1.5rem;
+  color: black;
+}
+
+#contactForm {
+  margin-top: 10rem;
+}
+
+#contactForm form {
+  outline: none;
+}
+
+#contactForm form textarea {
+  resize: none;
+}
+
+#contactForm .desc1 {
+  max-width: 75%;
+}
+
+footer {
+  margin-top: 12rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .list-group-item {
+  border: none;
+}
+
+footer li a {
+  width: auto;
+}
+
+footer li a img {
+  width: auto;
+}
+
+footer ul {
+  width: auto;
+}
+
+.infome {
+  height: auto;
+}
+
+.infome p {
+  font-size: 1.5rem;
+}
+
+.infome img {
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.infome .left {
+  padding: 6rem;
+}
+
+@media (max-width: 840px) {
+  .fotodestra {
+    display: none;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .hero .paragrafo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer h6 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
